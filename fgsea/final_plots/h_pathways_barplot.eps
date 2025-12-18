@@ -1,0 +1,433 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%BoundingBox: 0 0 1080 2160
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+/bg { 1 1 1 srgb } def
+0.00 0.00 1080.00 2160.00 r p2
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+/bg { 1 1 1 srgb } def
+0.00 0.00 1080.00 2160.00 r p2
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+511.67 34.27 1056.09 2154.52 cl
+0.8667 0.8667 0.8667 srgb
+0.64 setlinewidth
+[ 2.56 2.56] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+511.67 34.27 m
+0 2120.25 l
+o
+np
+633.19 34.27 m
+0 2120.25 l
+o
+np
+754.72 34.27 m
+0 2120.25 l
+o
+np
+876.24 34.27 m
+0 2120.25 l
+o
+np
+997.76 34.27 m
+0 2120.25 l
+o
+/bg { 0.4667 0.6667 0.8667 srgb } def
+511.67 2114.40 433.83 29.57 r p2
+511.67 2072.16 322.03 29.57 r p2
+511.67 2029.92 260.06 29.57 r p2
+511.67 1987.69 222.39 29.57 r p2
+511.67 1945.45 218.74 29.57 r p2
+511.67 1903.22 206.59 29.57 r p2
+511.67 1860.98 205.37 29.57 r p2
+511.67 1818.74 204.16 29.57 r p2
+511.67 1776.51 184.71 29.57 r p2
+511.67 1734.27 181.07 29.57 r p2
+511.67 1692.04 177.42 29.57 r p2
+511.67 1649.80 159.19 29.57 r p2
+511.67 1607.56 155.55 29.57 r p2
+511.67 1565.33 155.55 29.57 r p2
+511.67 1523.09 155.55 29.57 r p2
+511.67 1480.85 145.83 29.57 r p2
+511.67 1438.62 144.61 29.57 r p2
+511.67 1396.38 143.40 29.57 r p2
+511.67 1354.15 136.10 29.57 r p2
+511.67 1311.91 134.89 29.57 r p2
+511.67 1269.67 133.67 29.57 r p2
+511.67 1227.44 126.38 29.57 r p2
+511.67 1185.20 102.08 29.57 r p2
+511.67 1142.97 97.22 29.57 r p2
+511.67 1100.73 91.14 29.57 r p2
+511.67 1058.49 82.63 29.57 r p2
+511.67 1016.26 54.68 29.57 r p2
+511.67 974.02 53.47 29.57 r p2
+511.67 931.79 42.53 29.57 r p2
+511.67 889.55 42.53 29.57 r p2
+511.67 847.31 36.46 29.57 r p2
+511.67 805.08 36.46 29.57 r p2
+511.67 762.84 35.24 29.57 r p2
+511.67 720.60 30.38 29.57 r p2
+511.67 678.37 27.95 29.57 r p2
+511.67 636.13 25.52 29.57 r p2
+511.67 593.90 24.30 29.57 r p2
+511.67 551.66 20.66 29.57 r p2
+511.67 509.42 20.66 29.57 r p2
+511.67 467.19 15.80 29.57 r p2
+511.67 424.95 15.80 29.57 r p2
+511.67 382.72 14.58 29.57 r p2
+511.67 340.48 12.15 29.57 r p2
+511.67 298.24 10.94 29.57 r p2
+511.67 256.01 7.29 29.57 r p2
+511.67 213.77 7.29 29.57 r p2
+511.67 171.54 4.86 29.57 r p2
+511.67 129.30 4.86 29.57 r p2
+511.67 87.06 1.22 29.57 r p2
+511.67 44.83 0.00 29.57 r p2
+/Font1 findfont 28 s
+0.6510 0.2275 0.1647 srgb
+945.50 2119.13 (357) -0.15 0 t
+833.70 2076.89 (265) -0.15 0 t
+771.73 2034.65 (214) -0.15 0 t
+734.06 1992.42 (183) -0.15 0 t
+730.41 1950.18 (180) -0.15 0 t
+718.26 1907.95 (170) -0.15 0 t
+717.04 1865.71 (169) -0.15 0 t
+715.83 1823.47 (168) -0.15 0 t
+696.38 1781.24 (152) -0.15 0 t
+692.74 1739.00 (149) -0.15 0 t
+689.09 1696.77 (146) -0.15 0 t
+670.87 1654.53 (131) -0.15 0 t
+667.22 1612.29 (128) -0.15 0 t
+667.22 1570.06 (128) -0.15 0 t
+667.22 1527.82 (128) -0.15 0 t
+657.50 1485.59 (120) -0.15 0 t
+656.28 1443.35 (119) -0.15 0 t
+655.07 1401.11 (118) -0.15 0 t
+647.78 1358.88 (112) -0.15 0 t
+646.56 1316.64 (111) -0.15 0 t
+645.35 1274.40 (110) -0.15 0 t
+638.05 1232.17 (104) -0.15 0 t
+613.75 1189.93 (84) -0.15 0 t
+608.89 1147.70 (80) -0.15 0 t
+602.81 1105.46 (75) -0.15 0 t
+594.31 1063.22 (68) -0.15 0 t
+566.36 1020.99 (45) -0.15 0 t
+565.14 978.75 (44) -0.15 0 t
+554.20 936.52 (35) -0.15 0 t
+554.20 894.28 (35) -0.15 0 t
+548.13 852.04 (30) -0.15 0 t
+548.13 809.81 (30) -0.15 0 t
+546.91 767.57 (29) -0.15 0 t
+542.05 725.34 (25) -0.15 0 t
+539.62 683.10 (23) -0.15 0 t
+537.19 640.86 (21) -0.15 0 t
+535.98 598.63 (20) -0.15 0 t
+532.33 556.39 (17) -0.15 0 t
+532.33 514.15 (17) -0.15 0 t
+527.47 471.92 (13) -0.15 0 t
+527.47 429.68 (13) -0.15 0 t
+526.25 387.45 (12) -0.15 0 t
+523.82 345.21 (10) -0.15 0 t
+522.61 302.97 (9) -0.15 0 t
+518.96 260.74 (6) -0.15 0 t
+518.96 218.50 (6) -0.15 0 t
+516.53 176.27 (4) -0.15 0 t
+516.53 134.03 (4) -0.15 0 t
+512.89 91.79 (1) -0.15 0 t
+511.67 49.56 (0) -0.15 0 t
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+/Font1 findfont 24 s
+0 0 0 srgb
+276.03 50.99 (NO) 0 ta
+-0.960 (TCH_SIGNALING) tb gr
+292.01 93.23 (APICAL_SURF) 0 ta
+-1.920 (A) tb
+-0.720 (CE) tb gr
+505.40 135.47 (HEDGEHOG_SIGNALING) 1 0 t
+220.01 177.70 (ANDR) 0 ta
+-0.480 (OGEN_RESPONSE) tb gr
+207.96 219.94 (P) 0 ta
+-2.880 (ANCREAS_BET) tb
+-2.880 (A_CELLS) tb gr
+131.96 262.17 (ESTR) 0 ta
+-0.480 (OGEN_RESPONSE_EARL) tb
+-3.360 (Y) tb gr
+264.00 304.41 (SPERMA) 0 ta
+-2.880 (T) tb
+-0.960 (OGENESIS) tb gr
+505.40 346.65 (ANGIOGENESIS) 1 0 t
+505.40 388.88 (KRAS_SIGNALING_DN) 1 0 t
+505.40 431.12 (UV_RESPONSE_UP) 1 0 t
+150.63 473.35 (ESTR) 0 ta
+-0.480 (OGEN_RESPONSE_LA) tb
+-2.880 (TE) tb gr
+282.68 515.59 (MYC_T) 0 ta
+-2.880 (ARGETS_V2) tb gr
+265.35 557.83 (HEME_MET) 0 ta
+-2.880 (ABOLISM) tb gr
+111.99 600.06 (WNT_BET) 0 ta
+-2.880 (A_CA) tb
+-2.880 (TENIN_SIGNALING) tb gr
+505.40 642.30 (UV_RESPONSE_DN) 1 0 t
+330.68 684.54 (P53_P) 0 ta
+-2.880 (A) tb
+-2.880 (THW) tb
+-1.200 (A) tb
+-2.400 (Y) tb gr
+237.32 726.77 (TGF_BET) 0 ta
+-2.880 (A_SIGNALING) tb gr
+106.66 769.01 (UNFOLDED_PR) 0 ta
+-0.480 (O) tb
+-0.960 (TEIN_RESPONSE) tb gr
+245.36 811.24 (PR) 0 ta
+-0.480 (O) tb
+-0.960 (TEIN_SECRETION) tb gr
+505.40 853.48 (KRAS_SIGNALING_UP) 1 0 t
+110.64 895.72 (INTERFER) 0 ta
+-0.480 (ON_ALPHA_RESPONSE) tb gr
+137.31 937.95 (CHOLESTER) 0 ta
+-0.480 (OL_HOMEOST) tb
+-2.880 (ASIS) tb gr
+19.92 980.19 (REA) 0 ta
+-0.720 (CTIVE_O) tb
+-1.440 (XYGEN_SPECIES_P) tb
+-2.880 (A) tb
+-2.880 (THW) tb
+-1.200 (A) tb
+-2.400 (Y) tb gr
+239.96 1022.42 (IL2_ST) 0 ta
+-2.880 (A) tb
+-2.880 (T5_SIGNALING) tb gr
+260.02 1064.66 (MT) 0 ta
+-0.960 (ORC1_SIGNALING) tb gr
+366.68 1106.90 (APOPT) 0 ta
+-0.960 (OSIS) tb gr
+165.29 1149.13 (PI3K_AKT_MT) 0 ta
+-0.960 (OR_SIGNALING) tb gr
+398.69 1191.37 (HYPO) 0 ta
+-1.440 (XIA) tb gr
+169.30 1233.60 (TNF) 0 ta
+-1.920 (A_SIGNALING_VIA_NFKB) tb gr
+98.67 1275.84 (INTERFER) 0 ta
+-0.480 (ON_GAMMA_RESPONSE) tb gr
+505.40 1318.08 (COMPLEMENT) 1 0 t
+505.40 1360.31 (APICAL_JUNCTION) 1 0 t
+353.33 1402.55 (GL) 0 ta
+-3.360 (YCOL) tb
+-3.360 (YSIS) tb gr
+505.40 1444.79 (ADIPOGENESIS) 1 0 t
+344.02 1487.02 (PER) 0 ta
+-0.480 (O) tb
+-1.440 (XISOME) tb gr
+344.02 1529.26 (MY) 0 ta
+-2.040 (OGENESIS) tb gr
+290.69 1571.49 (MIT) 0 ta
+-0.960 (O) tb
+-0.960 (TIC_SPINDLE) tb gr
+352.04 1613.73 (DNA_REP) 0 ta
+-2.880 (AIR) tb gr
+505.40 1655.97 (G2M_CHECKPOINT) 1 0 t
+168.00 1698.20 (INFLAMMA) 0 ta
+-2.880 (T) tb
+-0.960 (OR) tb
+-1.200 (Y_RESPONSE) tb gr
+330.70 1740.44 (CO) 0 ta
+-0.480 (A) tb
+-0.720 (GULA) tb
+-2.880 (TION) tb gr
+282.68 1782.67 (MYC_T) 0 ta
+-2.880 (ARGETS_V1) tb gr
+334.68 1824.91 (E2F_T) 0 ta
+-2.880 (ARGETS) tb gr
+186.65 1867.15 (XENOBIO) 0 ta
+-0.960 (TIC_MET) tb
+-2.880 (ABOLISM) tb gr
+505.40 1909.38 (EPITHELIAL_MESENCHYMAL_TRANSITION) 1 0 t
+211.97 1951.62 (BILE_A) 0 ta
+-0.720 (CID_MET) tb
+-2.880 (ABOLISM) tb gr
+182.60 1993.85 (IL6_J) 0 ta
+-0.480 (AK_ST) tb
+-2.880 (A) tb
+-2.880 (T3_SIGNALING) tb gr
+505.40 2036.09 (ALLOGRAFT_REJECTION) 1 0 t
+188.00 2078.33 (F) 0 ta
+-1.920 (A) tb
+-2.880 (TTY_A) tb
+-0.720 (CID_MET) tb
+-2.880 (ABOLISM) tb gr
+123.96 2120.56 (O) 0 ta
+-1.440 (XID) tb
+-0.960 (A) tb
+-2.880 (TIVE_PHOSPHOR) tb
+-1.200 (YLA) tb
+-2.880 (TION) tb gr
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+/Font1 findfont 24 s
+0 0 0 srgb
+511.67 10.76 (0) 1 0 t
+633.19 10.76 (100) 1 0 t
+754.72 10.76 (200) 1 0 t
+876.24 10.76 (300) 1 0 t
+997.76 10.76 (400) 1 0 t
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+0.00 0.00 1080.00 2160.00 cl
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
