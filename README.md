@@ -1,4 +1,4 @@
-# Understanding-the-LLM-based-gene-embeddings
+# Understanding the LLM-based gene embeddings
 
 This is the code repository of the paper "Understanding the LLM-based gene embeddings" (Yufei Cai, Dailin Gan, Jun Li).
 
