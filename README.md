@@ -11,6 +11,12 @@ conda env create -f environment.yml -y
 conda activate interpretation_genept
 ```
 
+All the main code (except that for FGSEA) is in the folder `embeddings`, so we may run the command first:
+
+```{bash}
+cd embeddings
+```
+
 ## OpenAI Embeddings
 
 To get OpenAI embeddings (`text-embedding-3-small`, `text-embedding-3-large`, and `text-embedding-ada-002`) for the genes listed in `gene_info_table.csv`. We can use the following commands:
@@ -89,9 +95,9 @@ Rscript prepare_pathways.R
 The main code `fgsea.R` can be used by:
 
 ```{bash}
-Rscript fgsea.R "h" "../original_text-embedding-3-small_filtered.csv" "original_h"
+Rscript fgsea.R "h" "../embeddings/original_text-embedding-3-small_filtered.csv" "original_h"
 ```
-where the "h" stands for hallmark pathways, and can be replaced by "c2" representing C2 pathways. The "../original_text-embedding-3-small_filtered.csv" is the path to the CSV embedding file that needs analysis. The "original_h" is the output CSV filename, which means the results will be stored as "original_h.csv".
+where the "h" stands for hallmark pathways, and can be replaced by "c2" representing C2 pathways. The "../embeddings/original_text-embedding-3-small_filtered.csv" is the path to the CSV embedding file that needs analysis. The "original_h" is the output CSV filename, which means the results will be stored as "original_h.csv".
 
 To summarize the pathway coverages for different embeddings, we need to use:
 
