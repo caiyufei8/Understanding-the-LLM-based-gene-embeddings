@@ -32,7 +32,7 @@ subset_file_names <- c(
   'c2.cp.wikipathways.v2024.1.Hs.symbols.gmt',
   'c2.cp.kegg_legacy.v2024.1.Hs.symbols.gmt'
 )
-original_gene_symbols <- read.csv('../original_text-embedding-3-small_filtered.csv')$X
+original_gene_symbols <- read.csv('../embeddings/original_text-embedding-3-small_filtered.csv')$X
 for (i in 1:length(gene_sets))
 {
   if (gene_sets[i] == 'c2') {

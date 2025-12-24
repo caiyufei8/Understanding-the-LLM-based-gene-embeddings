@@ -697,7 +697,7 @@ draw_three_barplots <- function(labels, vector_a, vector_b, vector_c,
   # labs(y = "Count", fill = "Embedding")
 }
 p<-0.05
-human_protein_genes<-read.csv("../original_text-embedding-3-small_filtered.csv")$X
+human_protein_genes<-read.csv("../embeddings/original_text-embedding-3-small_filtered.csv")$X
 h_pathways<-readRDS(paste0("./data/pathways/h_test.rds"))
 c2_pathways<-readRDS(paste0("./data/pathways/c2_test.rds"))
 
